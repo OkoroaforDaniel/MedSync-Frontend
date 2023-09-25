@@ -1,0 +1,20 @@
+a {
+    text-decoration: none;
+  }
+.LandingNavDiv{
+  display: none;
+}
+
+
+@media (max-width: 900px) {
+  .LandingNavDiv{
+    display: block;
+    margin-top: 25px;
+  }
+  ul{
+    display: none;
+  }
+  .Nav-title{
+    font-size: 25px;
+  }
+}

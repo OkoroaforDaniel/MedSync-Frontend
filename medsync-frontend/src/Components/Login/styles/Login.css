@@ -1,0 +1,13 @@
+.LoginForm{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.CenteredForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This makes the form take the full viewport height */
+  }
