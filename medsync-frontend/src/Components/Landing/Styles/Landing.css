@@ -495,6 +495,7 @@ li {
       background-image: url('../../Images/medsync1.jpg');
       background-size: cover;
       background-repeat: no-repeat;
+      height: 650px;
     }
     .backgroundImg{
       display: none;
@@ -506,6 +507,10 @@ li {
     }
     .CaptionImg{
       margin-left: 10px;
+      margin-top: 80px;
+    }
+    .Caption{
+      margin-top: 1000px;
     }
     .categoryH3{
       font-size: 15px;
@@ -712,7 +717,8 @@ li {
 
     }
     .text1{
-      font-weight: 600;
+      font-weight: 750;
+      margin-top: 10px;
     }
     .num{
       font-weight: 900;
@@ -723,5 +729,20 @@ li {
     }
     .Meet{
       margin-bottom: -60px;
+    }
+    .NumText{
+      margin-top: 10px;
+    }
+    .GetStarted{
+        margin-top: 40px;
+    }
+    .NumText1 p{
+      margin-top: 20px;
+    }
+    .NumText2 p{
+      margin-top: 20px;
+    }
+    .NumText3 p{
+      margin-top: 20px;
     }
   }
