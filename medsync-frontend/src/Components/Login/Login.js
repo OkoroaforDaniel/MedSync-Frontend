@@ -21,6 +21,7 @@ const Login = () => {
       console.log(data);
 
     } catch (e) {
+      alert("Wrong Login details")
       console.log(e);
     }
   }
