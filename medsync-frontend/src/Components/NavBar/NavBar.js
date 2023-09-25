@@ -71,10 +71,12 @@ const NavBar = () => {
           <i class="fa-solid fa-list" style={{color: "#222e3a"}}></i>
             <span className="sideNavIcon">About</span>
           </div>
+          <Link className='link' to='/Doctors' >
           <div className="spanDiv1">
           <i class="fa-solid fa-table" style={{color: "#222e3a"}}></i>
             <span className="sideNavIcon">Doctors</span>
           </div>
+          </Link>
 
           <div className="spanDiv3">
           <i class="fa-regular fa-address-card" style={{color: "#222e3a"}}></i>
