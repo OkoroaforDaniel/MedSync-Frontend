@@ -495,7 +495,7 @@ li {
       background-image: url('../../Images/medsync1.jpg');
       background-size: cover;
       background-repeat: no-repeat;
-      height: 650px;
+      height: 580px;
     }
     .backgroundImg{
       display: none;
@@ -717,7 +717,7 @@ li {
 
     }
     .text1{
-      font-weight: 750;
+      font-weight: 600;
       margin-top: 10px;
     }
     .num{
