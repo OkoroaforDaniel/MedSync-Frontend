@@ -174,6 +174,7 @@ const Landing = () => {
             </div>
         </div>
 
+        <h4 className='testh4'>TESTIMIONAL</h4>
         <div className='Testimonial'>
             <div className='patient-container'>
             <img className='MedSync5' src={MedSync5} alt='MedSync5'/>
@@ -199,7 +200,7 @@ const Landing = () => {
 
             </div>
             <div className='TestimonialDiv2'>
-            <h4 className='testh4'>TESTIMIONAL</h4>
+            {/* <h4 className='testh4'>TESTIMIONAL</h4> */}
             <h2 className='CaptionTest1'>What Patients Say</h2>
             <h2 className='CaptionTest2'>About Us</h2>
 

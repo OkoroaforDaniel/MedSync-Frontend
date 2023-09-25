@@ -13,7 +13,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-    const {data} =  await axios.post("http://localhost:3001/api/v1/auth/login", {
+    const {data} =  await axios.post("https://medsyncapi.onrender.com/api/v1/auth/login", {
         username,
         password,
       });

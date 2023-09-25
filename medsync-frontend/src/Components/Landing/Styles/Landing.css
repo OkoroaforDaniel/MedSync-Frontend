@@ -9,7 +9,6 @@
     /* background-color: #CEE6F3; */
 
 }
-
 .Nav-title {
 	display: inline-block;
 	justify-content: left;
@@ -225,6 +224,7 @@ li {
   }
   .Doctor1{
     width: 20%;
+    /* width: 350px; */
     height: 400px;
     padding: 20px;
     border-radius: 20px;
@@ -491,13 +491,10 @@ li {
   }
 
   @media (max-width: 900px) {
-    .background-image {
-      background-image: url('../../Images/medsync13.jpeg');
+    .Header {
+      background-image: url('../../Images/medsync1.jpg');
       background-size: cover;
       background-repeat: no-repeat;
-    }
-    .Header {
-      /* background: none; */
     }
     .backgroundImg{
       display: none;
@@ -509,6 +506,9 @@ li {
     }
     .CaptionImg{
       margin-left: 10px;
+    }
+    .categoryH3{
+      font-size: 15px;
     }
     .NumText1{
       width: 40px;
@@ -540,5 +540,188 @@ li {
     .text1{
       font-size: 13px;
     }
+    .categoryH2{
+      font-size: 18px;
+    }
+    .category2Div{
+      display: block;
+    }
+    .category2, .category3, .category4{
+      margin-left: 0px;
+    }
+    .Specialist{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .Doctor1{
+      /* margin-left: 30px; */
+    }
+    .Doctor1, .Doctor2, .Doctor3{
+      width: 80%;
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+    .DesignationImg{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .h2Designation{
+      font-size: 22px;
+    }
+    .imgDesignation{
+      width: 100%;
+      height: 300px;
+    }
+    .Testimonial{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .TestimonialDiv2{
+      display: none;
+    }
+    .TestimonialDiv2 h4{
+      font-size: 20px;
+    }
+    .TestimonialDiv2 h2{
+      font-size: 22px;
+    }
+    .subSend{
+      margin-bottom: 30px;
+    }
+    .subscribeDiv{
+      width: 90%;
+      height: 200px;
+    }
+    .SubText{
+      font-size: 15px;
+    }
+    .subInput{
+      display: block;
+      width: 100%;
 
+    }
+
+    .SubButton{
+      width: 30%;
+      height: 40px;
+
+    }
+    footer{
+      width: 100%;
+      /* margin-left: 0px; */
+    }
+    .Service{
+      width: 25px;
+      margin-left: -50px;
+    }
+    .Info{
+      width: 25px;
+    }
+    .Contact{
+      width: 25px;
+    }
+    .Contact h4{
+      font-size: 12px;
+    }
+    .Contact p{
+      font-size: 10px;
+    }
+    .Info h4{
+      font-size: 12px;
+    }
+    .Info p{
+      font-size: 10px;
+    }
+    .Service h4{
+      font-size: 12px;
+    }
+    .Service p{
+      font-size: 10px;
+    }
+    footer{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 0px;
+      padding-top: 0px;
+    }
+    .footerTitle{
+      width: 25px;
+      margin-top: 5px;
+    }
+    .footerDiv{
+      margin-left: -40px;
+    }
+    .footerTitle h2{
+      font-size: 12px;
+    }
+    .footerTitle p{
+      font-size: 10px;
+    }
+    .footerIcon{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .footerIcon i{
+      margin-top: 20px;
+      margin-left: 0px;
+      font-size: 15px;
+    }
+    .Testimonial{
+      width: 80%;
+    }
+    .patient1{
+      width: 200px;
+      height: 180px;
+      padding: 25px;
+    }
+    .patient1 p{
+      font-size: 12px;
+    }
+    .patient2{
+      padding: 30px;
+      padding-bottom: 120px;
+    }
+    .patient2 h4{
+      margin-top: 50px;
+    }
+    .testh4{
+      margin-left: 20px;
+      font-size: 20px;
+      margin-top: 60px;
+    }
+    .LandingPage{
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-right: 0px;
+      /* width: 100%; */
+    }
+    .imgDiv{
+      width: 90%;
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      justify-content: center;
+
+    }
+    .text1{
+      font-weight: 600;
+    }
+    .num{
+      font-weight: 900;
+      /* color: #102242; */
+    }
+    .text{
+      font-weight: 600;
+    }
+    .Meet{
+      margin-bottom: -60px;
+    }
   }

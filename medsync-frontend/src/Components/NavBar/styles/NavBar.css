@@ -10,11 +10,20 @@ a {
   .LandingNavDiv{
     display: block;
     margin-top: 25px;
+    margin-right: -50px;
   }
   ul{
     display: none;
   }
   .Nav-title{
     font-size: 25px;
+  }
+  #spanDiv{
+    margin-top: 20px;
+  }
+  #sideNav{
+    /* margin-top: -40px; */
+      margin-left: -20px;
+      width: 50%;
   }
 }

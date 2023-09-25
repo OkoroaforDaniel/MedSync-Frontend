@@ -22,7 +22,7 @@ const Register = () => {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:3001/api/v1/auth/register",
+        "https://medsyncapi.onrender.com/api/v1/auth/register",
         {
           firstname,
           lastname,
