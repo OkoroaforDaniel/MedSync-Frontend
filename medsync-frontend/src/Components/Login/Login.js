@@ -28,6 +28,10 @@ const Login = () => {
   return (
     <div className="CenteredForm">
     <div className="RegisterForm">
+	   <p className="home">
+          <Link className="link" to='/'>Home</Link>
+          </p>
+
       <h2 className="head">MedSync</h2>
       <div className="innerForm">
         <div className="InputForm">
@@ -61,9 +65,15 @@ const Login = () => {
           <p>
             Don't have account? <Link to="/Register">Create an account</Link>
           </p>
+
+	  <p>
+          <Link className="link" to='/'>Go back Home</Link>
+          </p>
+
         </div>
       </div>
-    </div>
+    </div>  
+
     </div>
   );
 };

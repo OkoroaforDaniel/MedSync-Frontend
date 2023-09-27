@@ -47,7 +47,7 @@ const Register = () => {
 
   return (
     <div className="RegisterForm">
-      <h2 className="head">MedSync</h2>
+      <h2 className="head"><Link className="link" to='/'>MedSync</Link></h2>
       <div className="innerForm">
         <div className="InputForm">
           <h2 className="account">Create an Account</h2>
@@ -151,6 +151,10 @@ const Register = () => {
           </form>
           <p>
             Already have an account? <Link to="/Login">Log in</Link>
+          </p>
+
+	  <p>
+          <Link className="link" to='/'>Go back Home</Link>
           </p>
         </div>
       </div>
