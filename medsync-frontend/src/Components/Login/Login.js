@@ -28,11 +28,7 @@ const Login = () => {
   return (
     <div className="CenteredForm">
     <div className="RegisterForm">
-	   <p className="home">
-          <Link className="link" to='/'>Home</Link>
-          </p>
-
-      <h2 className="head">MedSync</h2>
+      <h2 className="head"><Link className="link" to='/'>MedSync</Link></h2>
       <div className="innerForm">
         <div className="InputForm">
           <h2 className="account">Login to Your Account</h2>

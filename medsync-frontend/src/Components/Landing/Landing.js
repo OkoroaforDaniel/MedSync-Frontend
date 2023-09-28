@@ -25,7 +25,7 @@ const Landing = () => {
                     <p className='text1'>
                         Welcome to MedSync where we help Doctors keep track <br /> of thier patients medical record, and also share <br /> information to make treatment more <br /> convenient.
                     </p>
-                    <button className='GetStarted'>Get Started</button>
+                    <button className='GetStarted'><Link to='/Register'>Get Started</Link></button>
 
                     <div className='NumText'>
                         <div className='NumText1'>
@@ -116,7 +116,7 @@ const Landing = () => {
 
         <div className='Specialist'>
         <div className='Doctor1'>
-            <img className='ImageDoctor1' src={MedSync2} alt='MedSync2' />
+            <img className='ImageDoctor1' src={MedSync1} alt='MedSync2' />
             <h3>Dr Comfort James</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
@@ -137,14 +137,14 @@ const Landing = () => {
         <div className='DesignationImg'>
             <div>
                 <h3 className='h3Designation'>DESIGNATION</h3>
-                <h2 className='h2Designation'>Why You Choose MedSync</h2>
+                <h2 className='h2Designation'>Why You Should Choose MedSync</h2>
                 <div className='iconH4P'>
                     <div className='desIcon'>
                         <i class="fa-solid fa-plug fa-2xl" style={{color: '#ebecf0'}}></i>
                     </div>
                     <div className='desImg'>
                         <h4>Best Expert Doctors</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing<br /> and typesetting industry</p>
+                        <p>MedSync brings doctors from accross the world<br /> from various disciplines and years of experience<br /> on their sleeves</p>
                     </div>
                 </div>
 
