@@ -112,6 +112,8 @@ const Landing = () => {
             </div>
         </div>
 
+        {/* Doctors section */}
+
         <h2 className='Meet'>Meet Our Specialist</h2>
 
         <div className='Specialist'>
@@ -133,6 +135,8 @@ const Landing = () => {
             <p>Lorem Ipsum is simply dummy text of<br /> the printing and typesetting industry.</p>
         </div>
         </div>
+
+        {/* Why MedSync */}
 
         <div className='DesignationImg'>
             <div>
@@ -173,6 +177,8 @@ const Landing = () => {
                 <div className='AfterImg'></div>
             </div>
         </div>
+
+    {/* Testimonial section */}
 
         <h4 className='testh4'>TESTIMIONAL</h4>
         <div className='Testimonial'>
@@ -219,6 +225,8 @@ const Landing = () => {
             </div>
         </div>
         
+        {/* Footer section */}
+
         <footer>
         <div className='footerDiv'>
             <div className='footerTitle'>
