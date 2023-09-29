@@ -152,7 +152,7 @@ const Doctors = () => {
                   <div className="increase">
                     <h1>260</h1>
                     <p>
-                      <span>80% </span>Success
+                      <span>80% </span>Success rate
                     </p>
                   </div>
                 </div>
@@ -169,7 +169,7 @@ const Doctors = () => {
                   <div className="increase">
                     <h1>1,200</h1>
                     <p>
-                      <span>92% </span>Success
+                      <span>92% </span>Success rate
                     </p>
                   </div>
                 </div>
@@ -251,45 +251,93 @@ const Doctors = () => {
 
             <div className="TopSale">
               <h4>
-                Top Sales <span className="spanReport"> / Today</span>
+                 Scheduled procedures <span className="spanReport"> / Today</span>
               </h4>
+
+	  	<table>
+                <thead>
+                  <tr>
+                    <th># / number</th>
+                    <th>Patient</th>
+                    <th>Procedure</th>
+                    <th>Urgency</th>
+                    <th>Admission status</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>#21</td>
+                    <td>Irvin Naue</td>
+                    <td>Appendectomy</td>
+                    <td>Urgent</td>
+                    <td>On admission</td>
+                  </tr>
+
+	  	   <tr>
+                    <td>#28</td>
+                    <td>Trishia Doe</td>
+                    <td>Coronary artery bypass grafting (CABG)</td>
+                    <td>Very urgent</td>
+                    <td>Incomming</td>
+                  </tr>
+
+	  	   <tr>
+                    <td>#36</td>
+                    <td>Ja'affar Ahmed</td>
+                    <td>Colon resection</td>
+                    <td>Extremely urgenct</td>
+                    <td>On admission</td>
+                  </tr>
+
+	  	    <tr>
+                    <td>#53</td>
+                    <td>Amina Habib</td>
+                    <td>Appendectomy</td>
+                    <td>Not urgent</td>
+                    <td>Not admitted</td>
+                  </tr>
+	  	</tbody>
+	  	</table>
+
+
             </div>
             {/* </div> */}
           </div>
 
           {/* </div> */}
-          <div className="RANU">
-            <div className="Activity">
+	  <div className="RANU">
+	    {/* <div className="Activity">
             <h4>Recent Activity <span className="spanToday"> | Today</span></h4>
             <p><span className="mins">32 mins</span> Quia quae rerum explicabo officiis beatae</p>
             <p><span className="mins">56 mins</span> Voluptatem blanditiis blanditiis eveniet</p>
             <p><span className="mins">2 hrs</span> Voluptates corrupti molestias voluptatem</p>
             <p><span className="mins">1 day</span> Est sit eum reiciendis exercitationem</p>
-            </div>
+            </div> */}
 
             <div className="newUpdate">
             <h4>News & Updates <span className="spanNewUpdate"> | Today</span></h4>
             <div className="news1">
             <img className="newsImg1" src={news1} alt="news1" />
             <div className="newsh4">
-                <h4>Nihil blanditiis at in nihil autem</h4>
-                <p>Sit recusandae non aspernatur laboriosam.<br /> Quia enim eligendi sed ut harum...</p>
+                <h4>HIV cure now readily available</h4>
+                <p>Doctor in Namabia realese novel cure to the <br /> dreaded HIV disease for mass production. Says...</p>
             </div>
             </div>
 
             <div className="news2">
             <img className="newsImg2" src={news2} alt="news2" />
             <div className="newsh4">
-                <h4>Quidem autem et impedit</h4>
-                <p>Illo nemo neque maiores vitae officiis <br /> cum eum turos elan dries werona nande...</p>
+                <h4>Ground breaking research on breast cancer</h4>
+                <p>Women around the globe never felt happier and more relaxed about the future as medical<br /> team make breakthrough in Russia...</p>
             </div>
             </div>
 
             <div className="news3">
             <img className="newsImg3" src={news3} alt="news3" />
             <div className="newsh4">
-                <h4>Id quia et et ut maxime similique occaecati ut</h4>
-                <p>Fugiat voluptas vero eaque accusantium <br /> eos. Consequuntur sed ipsam et totam...</p>
+                <h4>Eye health never got better</h4>
+                <p>Opthamologists show us how to better care for our eyes, as they reveal new line <br /> of medication and lenses...</p>
             </div>
             </div>
             </div>
