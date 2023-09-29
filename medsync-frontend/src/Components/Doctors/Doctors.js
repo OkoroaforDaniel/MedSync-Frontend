@@ -183,14 +183,14 @@ const Doctors = () => {
             {/* <div className="RRT"> */}
             <div className="Report">
               <h4>
-                Report <span className="spanReport"> / Today</span>
+                Awaiting list <span className="spanReport"> / Today</span>
               </h4>
-              <p>100</p>
-              <p>80</p>
-              <p>60</p>
-              <p>40</p>
-              <p>20</p>
-              <p>0</p>
+              <p>Daniel Ember</p>
+              <p>Alison Drake</p>
+              <p>Isreal Hilltop</p>
+              <p>Fauzia Umar</p>
+              <p>Adeola Adebowale</p>
+              <p>Judas Iscariot</p>
             </div>
             <div className="RecentSale" id="RecentSale">
               <h4>
@@ -201,40 +201,50 @@ const Doctors = () => {
                   <tr>
                     <th># / number</th>
                     <th>Patient</th>
-                    <th>Ailment</th>
-                    <th>Condition</th>
+                    <th>Diagnosis</th>
+                    <th>Severity</th>
+	  	    <th>Outcome</th>
                     <th>Admission status</th>
                   </tr>
                 </thead>
+
                 <tbody>
                   <tr>
                     <td>#2147</td>
                     <td>Bridie Kessler</td>
                     <td>Malaria fever</td>
                     <td>Mild</td>
+	  	    <td>Successful</td>
                     <td>Discharged</td>
                   </tr>
+
                   <tr>
                     <td>#2457</td>
                     <td>Brandon Jacob</td>
-                    <td> At recusandae consectetur</td>
-                    <td>$47</td>
-                    <td>Approved</td>
+                    <td>Heamophilia</td>
+                    <td>Severe</td>
+	  	    <td>Successful</td>
+                    <td>Admitted</td>
                   </tr>
+
                   <tr>
-                    <td>#2049</td>
+                    <td>#2457</td>
                     <td>Ashleigh Langosh</td>
-                    <td>Blanditiis dolor omnis similique</td>
-                    <td>$147</td>
-                    <td>Rejected</td>
+                    <td>Bacteriosis</td>
+                    <td>Acute</td>
+                    <td>Ongoing treatment</td>
+                    <td>Discharged</td>
                   </tr>
+
                   <tr>
-                    <td>#2644</td>
-                    <td>Angus Grady</td>
-                    <td>At praesentium minu</td>
-                    <td>$67</td>
-                    <td>Approved</td>
+                    <td>#2457</td>
+                    <td>Brandon Jacob</td>
+                    <td>Schistosomiasis</td>
+                    <td>Severe</td>
+                    <td>Ongoing treatment</td>
+                    <td>Admitted</td>
                   </tr>
+
                 </tbody>
               </table>
             </div>
