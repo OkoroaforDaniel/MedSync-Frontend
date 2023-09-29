@@ -23,7 +23,7 @@ const Doctors = () => {
     <div>
     <div className="navDoctor">
 	  <div>
-      <h1 className="Doctorh1">MedSync</h1>
+      <h1 className="Doctorh1"><Link to='/'>MedSync</Link></h1>
     </div>
 
 	  <div className="SearchInput">
@@ -125,41 +125,41 @@ const Doctors = () => {
             <div className="SRC">
               <div className="saleDiv">
                 <p>
-                  Sales | <span className="Today">Today</span>
+                  Patients | <span className="Today">Today</span>
                 </p>
                 <div className="cartIcon">
                   <i
-                    class="fa-solid fa-cart-plus fa-2xl"
+                    class="fa-solid fa-users fa-2xl"
                     style={{ color: "#d175ea" }}
                   ></i>
                   <div className="increase">
-                    <h1>145</h1>
+                    <h1>45</h1>
                     <p>
-                      <span>12% </span>Increase
+                      <span>93% </span>Success rate
                     </p>
                   </div>
                 </div>
               </div>
               <div className="RevenueDiv">
                 <p>
-                  Revenue | <span className="Month">This month</span>
+                  Treatments | <span className="Month">This month</span>
                 </p>
                 <div className="cartIcon">
                   <i
-                    className="fa-solid fa-dollar-sign fa-2xl"
+                    className="fa-solid fa-users fa-2xl"
                     style={{ color: "#bd52cb" }}
                   ></i>
                   <div className="increase">
-                    <h1>3,260</h1>
+                    <h1>260</h1>
                     <p>
-                      <span>8% </span>Increase
+                      <span>80% </span>Success
                     </p>
                   </div>
                 </div>
               </div>
               <div className="CustomerDiv" id="CustomerDiv">
                 <p>
-                  Customer | <span className="Year">This Year</span>
+                  Treatments | <span className="Year">This Year</span>
                 </p>
                 <div className="cartIcon">
                   <i
@@ -167,9 +167,9 @@ const Doctors = () => {
                     style={{ color: "#d869d5" }}
                   ></i>
                   <div className="increase">
-                    <h1>1200</h1>
+                    <h1>1,200</h1>
                     <p>
-                      <span>12% </span>Decrease
+                      <span>92% </span>Success
                     </p>
                   </div>
                 </div>
@@ -194,25 +194,25 @@ const Doctors = () => {
             </div>
             <div className="RecentSale" id="RecentSale">
               <h4>
-                Recent Sale<span className="spanReport"> / Today</span>
+                Recent Treatments<span className="spanReport"> / This week</span>
               </h4>
               <table>
                 <thead>
                   <tr>
-                    <th>#</th>
-                    <th>Customer</th>
-                    <th>Product</th>
-                    <th>Price</th>
-                    <th>Status</th>
+                    <th># / number</th>
+                    <th>Patient</th>
+                    <th>Ailment</th>
+                    <th>Condition</th>
+                    <th>Admission status</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>#2147</td>
                     <td>Bridie Kessler</td>
-                    <td>Ut voluptatem id earum et</td>
-                    <td>$64</td>
-                    <td>Pending</td>
+                    <td>Malaria fever</td>
+                    <td>Mild</td>
+                    <td>Discharged</td>
                   </tr>
                   <tr>
                     <td>#2457</td>
