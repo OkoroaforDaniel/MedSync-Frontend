@@ -227,7 +227,7 @@ input{
     background-color: whitesmoke;
     margin-top: 40px;
     margin-left: 50px;
-    width: 83%;
+    /* width: 83%; */
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(110, 107, 107, 0.3);
