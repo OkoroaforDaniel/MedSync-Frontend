@@ -119,20 +119,20 @@ const Landing = () => {
         <div className='Specialist'>
         <div className='Doctor1'>
             <img className='ImageDoctor1' src={MedSync1} alt='MedSync2' />
-            <h3>Dr Comfort James</h3>
-            <p>Optometrist: professionally trained to provide primary eye care services</p>
+            <h3>Dr. Comfort James</h3>
+            <p>Optometrist: A passionate optometrist with a proven track record,<br/> and a lot of testimonials form satisfied patients.</p>
         </div>
 
         <div className='Doctor2'>
             <img className='ImageDoctor2' src={MedSync3} alt='MedSync3' />
-            <h2>Dr Ben Jacob</h2>
-            <p>Pediatrician: specializes in the care of infants, children, and adolescents.<br /> They are trained to provide comprehensive healthcare<br /> for young patients, from birth to late adolescence</p>
+            <h2>Dr. Ben Jacob</h2>
+            <p>Pediatrician: Cherry and always happy pediatrician, with a passion for his patients.<br/> It seems they pretend to be sick just to meet him.</p>
         </div>
 
         <div className='Doctor3'>
             <img className='ImageDoctor3' src={MedSync4} alt='MedSync4' />
-            <h2>Dr John Endurance</h2>
-            <p>Oncologist: highly specialized physician with expert understanding in<br /> different types of cancer, their causes, progression,<br /> and various treatment options</p>
+            <h2>Dr. John Endurance</h2>
+            <p>Oncologist: Adept oncologist with a deep understanding of cancers.<br/> His devotion to his patients is simply amazing. </p>
         </div>
         </div>
 
@@ -158,7 +158,7 @@ const Landing = () => {
                     </div>
                     <div className='desImg'>
                         <h4>24/7 Support & Health Care</h4>
-                        <p> A wide range of services and resources designed to promote and maintain <br />individuals' physical, mental, and emotional well-being. </p>
+                        <p> There is always a specialist available and trained to help you promote and<br/> maintain your physical, mental, and emotional well-being. </p>
                     </div>
                 </div>
 
@@ -168,7 +168,8 @@ const Landing = () => {
                     </div>
                     <div className='desImg'>
                         <h4>Emergency Service</h4>
-                        <p> A crucial component of public safety and healthcare infrastructure that respond<br /> to critical situations and urgent needs that require immediate attention.<br/> These services are typically provided by trained professionals and organizations to protect life,<br/> property, and well-being in various emergency situations</p>
+                        <p> Got an emergency, don't worry. we have a full team of specialists available and ready to respond to critical,<br/> and urgent situations that arise, providing necessary and immediate attention.<br/>
+We'll stay with you till everything gets better.</p>
                     </div>
                 </div>
             </div>
@@ -186,14 +187,12 @@ const Landing = () => {
             <img className='MedSync5' src={MedSync5} alt='MedSync5'/>
             <div className='patient1'>
             <p>
-            Contrary to popular belief, Lorem Ipsum is not simply 
-            <br /> random text. It has roots in a piece of classical Latin 
-            <br/>literature from 45 BC, <br />
+            Contrary to popular belief, an appointment with a doctor has been easy for me, as I can now <br/>fix one way ahead of time with a doctor I never knew before.
             </p>
             <h4>
                 James David
             </h4>
-            <p>Lagos Lekki</p>
+            <p>Dallas, Texas.</p>
 
             </div>
             <div className='patient2'>
