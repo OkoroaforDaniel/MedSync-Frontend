@@ -192,10 +192,14 @@ const Doctors = () => {
               <p>Adeola Adebowale</p>
               <p>Judas Iscariot</p>
             </div>
-            <div className="RecentSale" id="RecentSale">
-              <h4>
+         
+	  <div className="RecentSale" id="RecentSale">
+	  <div className = "RecentTreatments">
+	     <h4>
                 Recent Treatments<span className="spanReport"> / This week</span>
-              </h4>
+      	    </h4> </div>
+
+	  <div>
               <table>
                 <thead>
                   <tr>
@@ -246,14 +250,16 @@ const Doctors = () => {
                   </tr>
 
                 </tbody>
-              </table>
+              </table> </div>
             </div>
 
             <div className="TopSale">
+	     <div classname="ScheduledProcedures">
               <h4>
                  Scheduled procedures <span className="spanReport"> / Today</span>
-              </h4>
+              </h4> </div>
 
+	  	<div>	
 	  	<table>
                 <thead>
                   <tr>
@@ -298,14 +304,13 @@ const Doctors = () => {
                     <td>Not admitted</td>
                   </tr>
 	  	</tbody>
-	  	</table>
+	  	</table> </div>
 
 
             </div>
-            {/* </div> */}
           </div>
 
-          {/* </div> */}
+
 	  <div className="RANU">
 	    {/* <div className="Activity">
             <h4>Recent Activity <span className="spanToday"> | Today</span></h4>
