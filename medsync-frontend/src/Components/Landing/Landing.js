@@ -114,25 +114,25 @@ const Landing = () => {
 
         {/* Doctors section */}
 
-        <h2 className='Meet'>Meet Our Specialist</h2>
+        <h2 className='Meet'>Meet Our Specialists</h2>
 
         <div className='Specialist'>
         <div className='Doctor1'>
             <img className='ImageDoctor1' src={MedSync1} alt='MedSync2' />
             <h3>Dr Comfort James</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>Optometrist: professionally trained to provide primary eye care services</p>
         </div>
 
         <div className='Doctor2'>
             <img className='ImageDoctor2' src={MedSync3} alt='MedSync3' />
             <h2>Dr Ben Jacob</h2>
-            <p>Lorem Ipsum is simply dummy text of<br /> the printing and typesetting industry.</p>
+            <p>Pediatrician: specializes in the care of infants, children, and adolescents.<br /> They are trained to provide comprehensive healthcare<br /> for young patients, from birth to late adolescence</p>
         </div>
 
         <div className='Doctor3'>
             <img className='ImageDoctor3' src={MedSync4} alt='MedSync4' />
             <h2>Dr John Endurance</h2>
-            <p>Lorem Ipsum is simply dummy text of<br /> the printing and typesetting industry.</p>
+            <p>Oncologist: highly specialized physician with expert understanding in<br /> different types of cancer, their causes, progression,<br /> and various treatment options</p>
         </div>
         </div>
 
@@ -158,7 +158,7 @@ const Landing = () => {
                     </div>
                     <div className='desImg'>
                         <h4>24/7 Support & Health Care</h4>
-                        <p>Lorem Ipsum is simply dummy text of the <br /> printing and typesetting industry</p>
+                        <p> A wide range of services and resources designed to promote and maintain <br />individuals' physical, mental, and emotional well-being. </p>
                     </div>
                 </div>
 
@@ -168,7 +168,7 @@ const Landing = () => {
                     </div>
                     <div className='desImg'>
                         <h4>Emergency Service</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing<br /> and typesetting industry</p>
+                        <p> A crucial component of public safety and healthcare infrastructure that respond<br /> to critical situations and urgent needs that require immediate attention.<br/> These services are typically provided by trained professionals and organizations to protect life,<br/> property, and well-being in various emergency situations</p>
                     </div>
                 </div>
             </div>
