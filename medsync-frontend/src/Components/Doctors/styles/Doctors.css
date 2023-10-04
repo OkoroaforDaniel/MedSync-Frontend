@@ -8,6 +8,13 @@
     z-index: 1;
     width: 100%;
 }
+
+.patientFileButton {
+	padding: 10px 12px;
+	width: 150px;
+	margin-left: 2%;
+}
+
 .logo {
 	color: black;
 	margin-right: 10px;

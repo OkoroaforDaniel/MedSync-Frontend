@@ -119,20 +119,23 @@ const Landing = () => {
         <div className='Specialist'>
         <div className='Doctor1'>
             <img className='ImageDoctor1' src={MedSync1} alt='MedSync2' />
+	  <div>
             <h3>Dr. Comfort James</h3>
-            <p>Optometrist: A passionate optometrist with a proven track record,<br/> and a lot of testimonials form satisfied patients.</p>
+            <p>Optometrist: A passionate optometrist with a proven track record,<br/> and a lot of testimonials form satisfied patients.</p> </div>
         </div>
 
         <div className='Doctor2'>
             <img className='ImageDoctor2' src={MedSync3} alt='MedSync3' />
+	  <div>
             <h2>Dr. Ben Jacob</h2>
-            <p>Pediatrician: Cherry and always happy pediatrician, with a passion for his patients.<br/> It seems they pretend to be sick just to meet him.</p>
+            <p>Pediatrician: Cherry and always happy pediatrician, with a passion for his patients.<br/> It seems they pretend to be sick just to meet him.</p> </div>
         </div>
 
         <div className='Doctor3'>
             <img className='ImageDoctor3' src={MedSync4} alt='MedSync4' />
+	  <div>
             <h2>Dr. John Endurance</h2>
-            <p>Oncologist: Adept oncologist with a deep understanding of cancers.<br/> His devotion to his patients is simply amazing. </p>
+            <p>Oncologist: Adept oncologist with a deep understanding of cancers.<br/> His devotion to his patients is simply amazing. </p> </div>
         </div>
         </div>
 

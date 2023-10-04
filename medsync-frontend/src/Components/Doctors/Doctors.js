@@ -83,7 +83,7 @@ const Doctors = () => {
           </div>
           <div className="spanDiv1">
           <i class="fa-solid fa-chart-simple" style={{color: "#222e3a"}}></i>
-            <button onclick="toggleClock()" id="patientFileButton">
+            <button onclick="toggleClock()" id="patientFileButton" className="patientFileButton">
 	  	<span className="sideNavIcon">Create patient file</span>
 	    </button>
           </div>
