@@ -83,7 +83,9 @@ const Doctors = () => {
           </div>
           <div className="spanDiv1">
           <i class="fa-solid fa-chart-simple" style={{color: "#222e3a"}}></i>
-            <span className="sideNavIcon">Create patient file</span>
+            <button onclick="toggleClock()" id="patientFileButton">
+	  	<span className="sideNavIcon">Create patient file</span>
+	    </button>
           </div>
 
           <div className="spanDiv2">
@@ -99,12 +101,12 @@ const Doctors = () => {
 
           <div className="spanDiv3">
           <i class="fa-regular fa-address-card" style={{color: "#222e3a"}}></i>
-            <span className="sideNavIcon">Contact</span>
+            <span className="sideNavIcon">Contact Information</span>
           </div>
           <div className="spanDiv3">
           <Link className="link" to='/Register' >
           <i class="fa-solid fa-rectangle-list" style={{color: "#222e3a"}}></i>
-            <span className="sideNavIcon">Register</span>
+            <span className="sideNavIcon">Register New Affiliation</span>
             </Link>
           </div>
 
@@ -112,7 +114,7 @@ const Doctors = () => {
           <div className="spanDiv3">
           <Link className="link" to='/Login'>
           <i class="fa-solid fa-right-to-bracket" style={{color: "#222e3a"}}></i>
-            <span className="sideNavIcon">Login</span>
+            <span className="sideNavIcon">Log out</span>
             </Link>
           </div>
           
@@ -312,13 +314,6 @@ const Doctors = () => {
 
 
 	  <div className="RANU">
-	    {/* <div className="Activity">
-            <h4>Recent Activity <span className="spanToday"> | Today</span></h4>
-            <p><span className="mins">32 mins</span> Quia quae rerum explicabo officiis beatae</p>
-            <p><span className="mins">56 mins</span> Voluptatem blanditiis blanditiis eveniet</p>
-            <p><span className="mins">2 hrs</span> Voluptates corrupti molestias voluptatem</p>
-            <p><span className="mins">1 day</span> Est sit eum reiciendis exercitationem</p>
-            </div> */}
 
             <div className="newUpdate">
             <h4>News & Updates <span className="spanNewUpdate"> | Today</span></h4>
