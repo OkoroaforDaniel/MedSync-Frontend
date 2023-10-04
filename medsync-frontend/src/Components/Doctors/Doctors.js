@@ -67,23 +67,35 @@ const Doctors = () => {
         <div className={sideNavClass}>
           <div className="spanDiv">
           <i class="fa-solid fa-square-poll-horizontal" style={{color: "#222e3a"}}></i>
-            <span className="sideNavIcon">Dashboard</span>
+          <button onclick="toggleDashboard()" id="dashboardButton" className="sideNavButton">
+	  <span className="sideNavIcon">Dashboard</span>
+	  </button>
           </div>
+
           <div className="spanDiv1">
           <i class="fa-brands fa-squarespace" style={{color: "#222e3a"}}></i>
+	  <button onclick="togglePatients()" id="patientsButton" className="sideNavButton">
             <span className="sideNavIcon">Patients</span>
+	  </button>
           </div>
+
           <div className="spanDiv1">
           <i class="fa-solid fa-list" style={{color: "#222e3a"}}></i>
+	  <button onclick="toggleReferPatient()" id="referPatientButton" className="sideNavButton">
             <span className="sideNavIcon">Refer patient</span>
+	  </button>
           </div>
+
           <div className="spanDiv1">
           <i class="fa-solid fa-table" style={{color: "#222e3a"}}></i>
+	  <button onclick="toggleTreatmentHistory()" id="treatmentHistoryButton" className="sideNavButton">
             <span className="sideNavIcon">Treatment history</span>
+	  </button>
           </div>
+
           <div className="spanDiv1">
           <i class="fa-solid fa-chart-simple" style={{color: "#222e3a"}}></i>
-            <button onclick="toggleClock()" id="patientFileButton" className="patientFileButton">
+            <button onclick="toggleCreatePatientFile()" id="patientFileButton" className="sideNavButton">
 	  	<span className="sideNavIcon">Create patient file</span>
 	    </button>
           </div>
