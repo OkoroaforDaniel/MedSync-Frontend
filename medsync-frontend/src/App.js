@@ -9,7 +9,7 @@ import Patients from './Components/Doctors/Patients/Patients';
 import ReferPatient from './Components/Doctors/ReferPatient/ReferPatient';
 import TreatmentHistory from './Components/Doctors/TreatmentHistory/TreatmentHistory';
 import PatientFile from './Components/Doctors/PatientFile/PatientFile';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 
 function App() {
