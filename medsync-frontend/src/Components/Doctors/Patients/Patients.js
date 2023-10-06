@@ -7,6 +7,11 @@ const Patients = () => {
     
   return (
     <div className="patientForm">
+	  <div>
+          <h1 className="Doctorh1">
+            <Link to="/">MedSync</Link>
+          </h1>
+        </div>
       <div>
         <h1 className="patientH1">Patient Medical Record</h1>
         <p className="TitleH2" id="TitleH2">Patient Information</p>
