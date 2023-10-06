@@ -199,6 +199,7 @@ input{
     width: 80%;
     box-shadow: 0 0 10px rgba(110, 107, 107, 0.3);
 }
+
 .CustomerDiv{
     padding: 10px;
     border-radius: 10px;
@@ -209,6 +210,7 @@ input{
     margin-left: -40px;
     box-shadow: 0 0 10px rgba(110, 107, 107, 0.3);
 }
+
 .Report{
     background-color: whitesmoke;
     margin-top: 40px;
@@ -218,9 +220,11 @@ input{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(110, 107, 107, 0.3);
 }
+
 .spanReport{
     color: gray;
 }
+
 .RecentSale{
     background-color: whitesmoke;
     margin-top: 40px;
@@ -230,6 +234,7 @@ input{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(110, 107, 107, 0.3);
 }
+
 .TopSale{
     background-color: whitesmoke;
     margin-top: 40px;
