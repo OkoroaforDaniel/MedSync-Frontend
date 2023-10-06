@@ -1,0 +1,13 @@
+.tittle {
+	text-align: left;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-size: 20px;
+}
+
+.patientFile {
+	display: flex;
+	margin: 10% 5% 10% 3%;
+	justify-content: space-between;
+	align-items: center;
+}
