@@ -40,6 +40,7 @@
     position: fixed;
     z-index: 0;
     height: 100vh;
+    width: 250px;
 }
 .sideNavIcon{
     margin-left: 10px;
@@ -120,7 +121,7 @@ input{
 }
  .sideNav{
     background-color: #ffffff;
-    padding-right: 100px;
+    padding-right: 20px;
     padding-left: 30px;
     box-shadow: 4px 0px 4px rgba(193, 184, 184, 0.2);
 }
@@ -229,7 +230,7 @@ input{
     background-color: whitesmoke;
     margin-top: 40px;
     margin-left: 50px;
-    width: 100%;
+    width: 83%;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(110, 107, 107, 0.3);
@@ -239,14 +240,15 @@ input{
     background-color: whitesmoke;
     margin-top: 40px;
     margin-left: 50px;
-    width: 100%;
+    width: 83%;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(110, 107, 107, 0.3);
+    margin-bottom: 50px;
 }
 th, td {
-    text-align: left;
-    padding: 20px;
+    /* text-align: left; */
+    padding: 10px;
   }
   th{
     margin-top: 510px;
@@ -257,6 +259,7 @@ th, td {
   }
   .dashboardActivities{
     display: flex;
+    flex-direction: row;
   }
   .Activity{
     background-color: whitesmoke;
@@ -274,10 +277,15 @@ th, td {
   .newUpdate{
     background-color: whitesmoke;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 10px;
     margin-right: 20px;
     box-shadow: 0 0 10px rgba(110, 107, 107, 0.3);
+  }
+  .RANU{
+    width: 50%;
+    height: 1000px;
+    margin-left: -40px;
   }
   .spanNewUpdate{
     color: gray;
@@ -367,6 +375,25 @@ th, td {
       }
       .SearchInput{
         margin-left: -20%;
+      }
+      .dashboardActivitiesRow{
+        display: flex;
+        flex-direction: column;
+      }
+      .RANU{
+        margin-left: 0px;
+      }
+      th, td {
+        /* text-align: left; */
+        padding: 5px;
+        font-size: 12px;
+      }
+      td {
+        font-weight: 500;
+      }
+      th{
+        margin-top: 510px;
+        font-weight: 800;
       }
 
 }
@@ -481,18 +508,19 @@ table{
 #RecentSale {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	justify-content: center;
 	align-items: center;
 	font-size: 14px;
-	margin-left: -10px;
+	margin-left: 20px;
 }
 
 .RecentTreatments {
 	display: block;
 	width: 100%;
 	padding-bottom: 2%;
+    text-align: center;
 }
 
 
@@ -508,35 +536,55 @@ table{
     margin-left: 20px;
     width: 90%;
   }
+  th, td {
+    /* text-align: left; */
+    padding: 5px;
+    font-size: 55%;
+    /* text-align: center; */
+  }
+  td {
+    font-weight: 500;
+    /* text-align: center; */
+  }
+  th{
+    /* margin-top: 10px; */
+    font-weight: 800;
+    text-align: center;
+  }
 
   .TopSale{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    font-size: 14px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* font-size: 14px; */
     margin-left: 20px;
-    width: 100%;
+    width: 90%;
+    text-align: center;
   }
 
   .ScheduledProcedures {
 	  display: block;
 	  width: 100%;
 	  padding-bottom: 2%;
+      align-items: center;
   }
   .TopSale th,
   .TopSale td {
     padding: 5px;
+    font-size: 60%;
+    text-align: center;
+  }
+  table{
+    text-align: center;
   }
 
   .RANU{
     margin-left: 20px;
     margin-top: 40px;
-    margin-right: 0px;
+    /* margin-right: 20px; */
     margin-bottom: 20px;
-  }
-  .RRT{
-    /* margin-right: 40px; */
+    width: 95%;
   }
   .NavIcon{
     margin-left: 40px;
