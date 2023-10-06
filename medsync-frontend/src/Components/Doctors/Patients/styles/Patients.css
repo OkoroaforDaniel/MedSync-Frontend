@@ -1,0 +1,99 @@
+/* .patientForm{
+    display: flex;
+    flex-direction: column;
+} */
+.detail1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    /* width: 80%; */
+}
+.detail2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    /* width: 80%; */
+}
+.detail3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    /* width: 80%; */
+}
+.patientH1{
+    font-size: 45px;
+    font-weight: 900;
+    margin-left: 15%;
+}
+.detailLeft{
+    width: 30%;
+    margin-left: 15%;
+}
+.detailRight{
+    margin-left: 25%;
+    margin-right: 15%;
+    width: 30%;
+}
+.patientTH{
+    font-size: 25px;
+    color: #195ca8;
+    font-weight: 700;
+}
+.patientTD{
+    color: rgb(89, 84, 84);
+    font-weight: 500;
+    font-size: 18px;
+}
+.TitleH2{
+    font-size: 35px;
+    color: #082a52;
+    margin-left: 15%;
+}
+#line2{
+    margin-top: 80px;
+    border-top: none;
+    height: 50px;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+#TitleH2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #082a52;
+    /* margin-left: 15%; */
+}
+
+@media (max-width: 900px) {
+    .patientH1{
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .patientTH{
+        font-size: 18px;
+        color: #195ca8;
+        font-weight: 700;
+    }
+    .detailRight{
+        width: 50%;
+        margin-left: 50px;
+    }
+    .detailLeft{
+        width: 50%;
+        margin-right: 20px;
+    }
+    .patientTD{
+        font-size: 12px;
+    }
+    .TitleH2{
+        font-size: 20px;
+    }
+    #TitleH2{
+        font-size: 20px;
+        font-weight: 700;
+        color: #082a52;
+        /* margin-left: 15%; */
+    }
+}
