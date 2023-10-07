@@ -16,7 +16,7 @@ const PatientFile = () => {
             </Link>
 	  </div>
 
-      <form>
+      <form className='form'>
 	  <h4>Patient</h4>
 
         {/* Patient information */}
