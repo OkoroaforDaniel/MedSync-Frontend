@@ -8,29 +8,58 @@ const PatientFile = () => {
     <div id="patientFile">
 	  <h1 className="title">
 	  	<Link to="/">MedSync</Link>
-	  </h1>
+	  </h1> <br />
       <form>
-        {/* ...other form fields... */}
+        {/* Patient information */}
+      <div className="patientIdentity">
+
+	 <div className="firstName">
+          <label htmlFor="firstName">First Name:</label> <br />
+          <input type="text" id="firstName" name="firstName" />
+        </div>
+
+	  <div className="lastName">
+          <label htmlFor="lastName">Last Name:</label> <br />
+          <input type="text" id="lastName" name="lastName" />
+        </div>
+
         <div className="email">
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email">Email:</label> <br />
           <input type="text" id="email" name="email" />
         </div>
+
         <div className="phoneNumber">
-          <label htmlFor="phone">Phone number:</label>
+          <label htmlFor="phone">Phone number:</label> <br />
           <input type="text" id="phone" name="phone" />
         </div>
+
+      </div> {/* Patient identity closing */}
+
+	  
+          <hr />
+	  
+
+      <div className="patientGender">
+
         <div className="gender">
-          <label htmlFor="gender">Gender:</label>
+          <label htmlFor="gender">Gender:</label> <br />
+	  <label htmlFor="male">Male</label>
           <input type="radio" id="male" name="gender" value="male" />
-          <label htmlFor="male">Male</label>
+          
+	  <label htmlFor="female">Female</label>
           <input type="radio" id="female" name="gender" value="female" />
-          <label htmlFor="female">Female</label>
+          
+	  <label htmlFor="both">Both</label>
           <input type="radio" id="both" name="gender" value="both" />
-          <label htmlFor="both">Both</label>
+          
+	  <label htmlFor="rather-not-say">Rather not say</label>
           <input type="radio" id="rather-not-say" name="gender" value="rather-not-say" />
-          <label htmlFor="rather-not-say">Rather not say</label>
+          
         </div>
+      </div> {/* Patient gender closing */}
+	
         <hr />
+	
         {/* ...other form fields... */}
         <div className="kingender">
           <label htmlFor="kingender">Gender:</label>
