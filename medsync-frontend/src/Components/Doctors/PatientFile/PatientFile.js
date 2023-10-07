@@ -6,13 +6,16 @@ const PatientFile = () => {
   return (
 
     <div id="patientFile">
-	  <h1 className="title">
+	  <div className="title">
+	  <h1>
 	  	<Link to="/">MedSync</Link>
-	  </h1> <br /> 
+	  </h1> 
 
-	  <Link className="link" to='/Doctors'>
+	  <Link className="backLink" to='/Doctors'>
             <i class="fa-solid fa-circle-arrow-left"></i>Doctors
             </Link>
+	  </div>
+
       <form>
 	  <h4>Patient</h4>
 
@@ -48,29 +51,24 @@ const PatientFile = () => {
 
         <div className="gender">
           <label htmlFor="gender">Gender:</label> <br />
+
+	  <select name="cars" id="cars">
+  		<option value="male">Male</option>
+  		<option value="female">Female</option>
+  		<option value="both">Both</option>
+  		<option value="anonymous">Rather not say</option>
+	  </select>
 	  
-	  <div className="genderItems">
-	  <label htmlFor="male">Male</label>
-          <input className="genderInput" type="radio" id="male" name="gender" value="male" />
-	  </div>
-          
-	  <div className="genderItems">
-	  <label htmlFor="female">Female</label>
-          <input className="genderInput" type="radio" id="female" name="gender" value="female" />
-	  </div>
-          
-	  <div className="genderItems">
-	  <label htmlFor="both">Both</label>
-          <input className="genderInput" type="radio" id="both" name="gender" value="both" />
-	  </div>
-          
-	  <div className="genderItems">
-	  <label htmlFor="rather-not-say">Rather not say</label>
-          <input className="genderInput" type="radio" id="rather-not-say" name="gender" value="rather-not-say" />
-	  </div>
           
         </div>
       </div> {/* Patient gender closing */}
+
+	  <br />
+
+	<div className="patientDateOfBirth">
+	  <label htmlFor="birthday">Date of birth:</label> <br />
+	  <input type="date" id="birthday" name="birthday" />
+	</div> {/* Patient date of birth closing */}
 	
         <hr />
 	
@@ -109,25 +107,13 @@ const PatientFile = () => {
 
           <label htmlFor="gender">Contact Gender:</label> <br />
 
-          <div className="genderItems">
-          <label htmlFor="male">Male</label>
-          <input className="contactGenderInput" type="radio" id="male" name="gender" value="male" />
-          </div>
-
-          <div className="genderItems">
-          <label htmlFor="female">Female</label>
-          <input className="contactGenderInput" type="radio" id="female" name="gender" value="female" />
-          </div>
-
-          <div className="genderItems">
-          <label htmlFor="both">Both</label>
-          <input className="contactGenderInput" type="radio" id="both" name="gender" value="both" />
-          </div>
-
-          <div className="genderItems">
-          <label htmlFor="rather-not-say">Rather not say</label>
-          <input className="contactGenderInput" type="radio" id="rather-not-say" name="gender" value="rather-not-say" />
-          </div> 
+	   <select name="cars" id="cars">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="both">Both</option>
+                <option value="anonymous">Rather not say</option>
+          </select>
+ 
 	  </div> {/* Next of kin gender closing */}
 
         {/* Next of kin closing */}
@@ -137,9 +123,39 @@ const PatientFile = () => {
 	  {/* Medical history */}
 
 	  <div className="medicalHistory">
-	  	<h4>Cases presented in the past</h4>
-	  	
+	  	<h4>Medical history</h4>
+	  	<label htmlFor="pastCases">Cases presented in the past:</label> <br />
+
+		<textarea id="pastCases" name="pastCases" rows="4" cols="50">
+	  	</textarea>
 	  </div> {/* Medical history closing */}
+
+	  <hr />
+
+	  {/* Symptoms and investigations */}
+	  <div className="symptomsAndInvestigations">
+	  	<div className="symptoms">
+	  		<label htmlFor="symptoms">Symptoms presented:</label> <br />
+
+                	<textarea id="symptoms" name="symptoms" rows="6" cols="50">
+                </textarea>
+	  	</div>
+
+	  	<div className="investigations">
+                <label htmlFor="investigations">Investigations to be made:</label> <br />
+
+                <textarea id="investigations" name="investigations" rows="6" cols="50">
+                </textarea>
+	  	</div>
+	  </div> {/* Symptoms and Investigations closing */}
+
+	  <br />
+
+	  {/* Submit button */}
+
+	  <div className="button">
+	  	<button className="submitEntry">Save details</button>
+	  </div> {/* button end */}
 
       </form>
     </div>
