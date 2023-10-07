@@ -10,6 +10,8 @@ const PatientFile = () => {
 	  	<Link to="/">MedSync</Link>
 	  </h1> <br />
       <form>
+	  <h4>Patient</h4>
+
         {/* Patient information */}
       <div className="patientIdentity">
 
@@ -43,37 +45,91 @@ const PatientFile = () => {
 
         <div className="gender">
           <label htmlFor="gender">Gender:</label> <br />
+	  
+	  <div className="genderItems">
 	  <label htmlFor="male">Male</label>
-          <input type="radio" id="male" name="gender" value="male" />
+          <input className="genderInput" type="radio" id="male" name="gender" value="male" />
+	  </div>
           
+	  <div className="genderItems">
 	  <label htmlFor="female">Female</label>
-          <input type="radio" id="female" name="gender" value="female" />
+          <input className="genderInput" type="radio" id="female" name="gender" value="female" />
+	  </div>
           
+	  <div className="genderItems">
 	  <label htmlFor="both">Both</label>
-          <input type="radio" id="both" name="gender" value="both" />
+          <input className="genderInput" type="radio" id="both" name="gender" value="both" />
+	  </div>
           
+	  <div className="genderItems">
 	  <label htmlFor="rather-not-say">Rather not say</label>
-          <input type="radio" id="rather-not-say" name="gender" value="rather-not-say" />
+          <input className="genderInput" type="radio" id="rather-not-say" name="gender" value="rather-not-say" />
+	  </div>
           
         </div>
       </div> {/* Patient gender closing */}
 	
         <hr />
 	
-        {/* ...other form fields... */}
-        <div className="kingender">
-          <label htmlFor="kingender">Gender:</label>
-          <input type="radio" id="kingender-male" name="kingender" value="male" />
-          <label htmlFor="kingender-male">Male</label>
-          <input type="radio" id="kingender-female" name="kingender" value="female" />
-          <label htmlFor="kingender-female">Female</label>
-          <input type="radio" id="kingender-both" name="kingender" value="both" />
-          <label htmlFor="kingender-both">Both</label>
-          <input type="radio" id="kingender-rather-not-say" name="kingender" value="rather-not-say" />
-          <label htmlFor="kingender-rather-not-say">Rather not say</label>
+        {/* Next of kin */}
+	  <h4>Emergency contact</h4>
+	  <p>(Next of kin)</p>
+
+	<div className="nextOfKinIdentity">
+
+         <div className="firstName">
+          <label htmlFor="firstName">Contact First Name:</label> <br />
+          <input type="text" id="firstName" name="firstName" />
         </div>
-        <hr />
-        {/* ...other form fields... */}
+
+          <div className="lastName">
+          <label htmlFor="lastName">Contact Last Name:</label> <br />
+          <input type="text" id="lastName" name="lastName" />
+        </div>
+
+        <div className="email">
+          <label htmlFor="email">Contact Email:</label> <br />
+          <input type="text" id="email" name="email" />
+        </div>
+
+        <div className="phoneNumber">
+          <label htmlFor="phone">Contact Phone number:</label> <br />
+          <input type="text" id="phone" name="phone" />
+        </div>
+
+      </div> {/* Next of kin identity closing */}
+
+
+          <hr />
+
+	<div className="nextOfKinGender">
+
+          <label htmlFor="gender">Contact Gender:</label> <br />
+
+          <div className="genderItems">
+          <label htmlFor="male">Male</label>
+          <input className="genderInput" type="radio" id="male" name="gender" value="male" />
+          </div>
+
+          <div className="genderItems">
+          <label htmlFor="female">Female</label>
+          <input className="genderInput" type="radio" id="female" name="gender" value="female" />
+          </div>
+
+          <div className="genderItems">
+          <label htmlFor="both">Both</label>
+          <input className="genderInput" type="radio" id="both" name="gender" value="both" />
+          </div>
+
+          <div className="genderItems">
+          <label htmlFor="rather-not-say">Rather not say</label>
+          <input className="genderInput" type="radio" id="rather-not-say" name="gender" value="rather-not-say" />
+          </div> 
+	  </div> {/* Next of kin gender closing */}
+
+        {/* Next of kin closing */}
+
+	  <hr />
       </form>
     </div>
   );

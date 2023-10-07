@@ -20,21 +20,40 @@ form {
 	flex-direction: column;
 }
 
+hr {
+        display: block;
+        border-width: 1px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        size: 5px;
+        width: 98%;
+        align: center;
+        color: #A6F6FF;
+}
+
 .patientIdentity {
 	display: flex;
 	justify-content: space-between;
 	gap: 2px;
-	/*padding-right: 5%;*/
 	flex-direction: row;
 }
 
-hr {
-	display: block;
-	border-width: 1px;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	size: 5px;
-	width: 98%;
-	align: center;
-	color: #A6F6FF;
+.patientGender {
+	display: flex;
+	flex-direction: row;
+}
+
+.genderInput {
+	margin-left: -30%;
+}
+
+input[type="radio"] {
+  margin-right: 0;
+}
+
+.nextOfKinIdentity {
+	display: flex;
+        justify-content: space-between;
+        gap: 2px;
+        flex-direction: row;
 }
