@@ -8,7 +8,11 @@ const PatientFile = () => {
     <div id="patientFile">
 	  <h1 className="title">
 	  	<Link to="/">MedSync</Link>
-	  </h1> <br />
+	  </h1> <br /> 
+
+	  <Link className="link" to='/Doctors'>
+            <i class="fa-solid fa-circle-arrow-left"></i>Doctors
+            </Link>
       <form>
 	  <h4>Patient</h4>
 
@@ -37,8 +41,7 @@ const PatientFile = () => {
 
       </div> {/* Patient identity closing */}
 
-	  
-          <hr />
+	  <br />
 	  
 
       <div className="patientGender">
@@ -100,7 +103,7 @@ const PatientFile = () => {
       </div> {/* Next of kin identity closing */}
 
 
-          <hr />
+          <br />
 
 	<div className="nextOfKinGender">
 
@@ -108,28 +111,36 @@ const PatientFile = () => {
 
           <div className="genderItems">
           <label htmlFor="male">Male</label>
-          <input className="genderInput" type="radio" id="male" name="gender" value="male" />
+          <input className="contactGenderInput" type="radio" id="male" name="gender" value="male" />
           </div>
 
           <div className="genderItems">
           <label htmlFor="female">Female</label>
-          <input className="genderInput" type="radio" id="female" name="gender" value="female" />
+          <input className="contactGenderInput" type="radio" id="female" name="gender" value="female" />
           </div>
 
           <div className="genderItems">
           <label htmlFor="both">Both</label>
-          <input className="genderInput" type="radio" id="both" name="gender" value="both" />
+          <input className="contactGenderInput" type="radio" id="both" name="gender" value="both" />
           </div>
 
           <div className="genderItems">
           <label htmlFor="rather-not-say">Rather not say</label>
-          <input className="genderInput" type="radio" id="rather-not-say" name="gender" value="rather-not-say" />
+          <input className="contactGenderInput" type="radio" id="rather-not-say" name="gender" value="rather-not-say" />
           </div> 
 	  </div> {/* Next of kin gender closing */}
 
         {/* Next of kin closing */}
 
 	  <hr />
+
+	  {/* Medical history */}
+
+	  <div className="medicalHistory">
+	  	<h4>Cases presented in the past</h4>
+	  	
+	  </div> {/* Medical history closing */}
+
       </form>
     </div>
   );

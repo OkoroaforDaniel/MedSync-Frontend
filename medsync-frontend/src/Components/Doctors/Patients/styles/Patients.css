@@ -66,6 +66,21 @@
     /* margin-left: 15%; */
 }
 
+hr {
+        display: block;
+        border-width: 1px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        size: 5px;
+        width: 98%;
+        align: center;
+        color: #A6F6FF;
+}
+
+.backLink {
+	margin-left: 5%;
+}
+
 @media (max-width: 900px) {
     .patientH1{
         font-size: 25px;
@@ -96,4 +111,15 @@
         color: #082a52;
         /* margin-left: 15%; */
     }
+
+hr {
+        display: block;
+        border-width: 1px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        size: 5px;
+        width: 98%;
+        align: center;
+        color: #A6F6FF;
+}
 }

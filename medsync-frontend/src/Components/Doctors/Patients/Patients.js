@@ -11,6 +11,10 @@ const Patients = () => {
           <h1 className="Doctorh1">
             <Link to="/">MedSync</Link>
           </h1>
+
+	  <Link className="backLink" to='/Doctors'>
+            <i class="fa-solid fa-circle-arrow-left"></i>Doctors
+            </Link>
         </div>
       <div>
         <h1 className="patientH1">Patient Medical Record</h1>
